@@ -24,7 +24,7 @@ Während der Entwicklung dieses Projekts wurden folgende Quellen verwendet:
 
 1. Klone das Repository auf deinen lokalen Computer:
 
-git clone https://github.com/DEIN_BENUTZERNAME/cartpole-q-learning.git
+git clone https://github.com/aminaud/CartPoleGame.git
 
 cd cartpole-q-learning
 
