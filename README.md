@@ -12,19 +12,21 @@ Dieses Repository enthält eine einfache Implementierung eines Q-Learning-Agente
 
 1. Klone das Repository auf deinen lokalen Computer:
 
-```bash
 git clone https://github.com/DEIN_BENUTZERNAME/cartpole-q-learning.git
+
 cd cartpole-q-learning
 
-```bash
 pip install -r requirements.txt
 
 ## Anleitung
-
-Führe den folgenden Befehl aus, um den Q-Learning-Agenten zu trainieren und das CartPole-Spiel zu spielen:
-
-```bash
+- Führe den folgenden Befehl aus, um den Q-Learning-Agenten zu trainieren und das CartPole-Spiel zu spielen:
+  
 python cartpole.py
+
+
+
+
+
 
 
 
