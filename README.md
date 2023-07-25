@@ -29,7 +29,7 @@ Agent den Wagen nach links oder rechts bewegt. Das Spiel endet, wenn das Pendel 
 bestimmten Winkel überschreitet oder der Wagen eine bestimmte Position verlässt. Der Agent
 erhält positive Belohnungen, solange das Pendel im Gleichgewicht gehalten wird, und negati-
 ve Belohnungen, wenn das Spiel vorzeitig endet. Das CartPole-Spiel ist eine der klassischen
-Umgebungen, die in OpenAI Gym enthalten sind
+Umgebungen, die in OpenAI Gym enthalten sind.
 
 ## Ansatz 
 
@@ -102,7 +102,7 @@ cd cartpole-q-learning
 pip install -r requirements.txt
 
 ## Anleitung
-- Führe die Datei cartpole.ipynb aus, um den Q-Learning-Agenten zu trainieren und das CartPole-Spiel zu spielen:
+- Führe die Datei cartpole.ipynb aus, um den Q-Learning-Agenten zu trainieren und das CartPole-Spiel zu spielen.
   
 
 
