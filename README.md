@@ -22,7 +22,7 @@ Während der Entwicklung dieses Projekts wurden folgende Quellen verwendet:
 
 ## Installation
 
-1. Klone das Repository auf deinen lokalen Computer:
+1. Klone das Repository auf einen lokalen Computer:
 
 git clone https://github.com/aminaud/CartPoleGame.git
 
