@@ -3,6 +3,7 @@
 - [Zielsetzung](#zielsetzung)
 - [Cartpole Game](#cartpole-game)
 - [Ansatz](#ansatz)
+- [Klasse QLearningAgent](#klasse-qlearningagent)
 - [Training](#training)
 - [Evaluierung](#evaluierung)
 - [Optimierung](#optimierung)
@@ -34,6 +35,10 @@ Agenten zu trainieren. Q-Learning ist ein modellfreier Reinforcement-Learning-Al
 der sich für die Anwendung besonders eignet, da er die Fähigkeit besitzt, die Q-Funktion
 zu nutzen, um die erwarteten Belohnungen für verschiedene Aktionen in einem bestimmten
 Zustand zu schätzen. Die Q-Funktion fungiert als Wertfunktion und gibt die erwartete Gesamtbelohnung aus einem Zustand und einer bestimmten Aktion an. Diese Methode ist ideal, um das CartPole-Spiel effektiv zu lösen und die besten Aktionen zu erlernen, die das Pendel im Gleichgewicht halten.
+
+## Klasse QLearningAgent
+
+Die Klasse QLearningAgent implementiert einen Q-Learning-Agenten für das Lernen einer optimalen Aktion in einer Umgebung. Die Klasse verfügt über Methoden, um den Zustand zu preprocessen (preprocess_state), eine Aktion zu wählen (choose_action) basierend auf den Q-Werten und der Exploration-Strategie, die Q-Tabelle zu aktualisieren (update_q_table) mit Hilfe des Q-Learning-Algorithmus, und schließlich den Agenten zu trainieren (train) über eine gegebene Anzahl von Episoden durch die Wechselwirkung mit der Umgebung, um die Q-Werte zu aktualisieren und eine optimale Strategie zu lernen.
 
 ## Training
 Nachdem die QLearningAgent-Klasse und ihre Funktionen implementiert wurden, konnte der eigentliche Trainings- und Testprozess für den Q-Learning-Agenten in der CartPole-Umgebung durch-
